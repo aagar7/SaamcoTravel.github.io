@@ -1,0 +1,340 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css" />
+    <meta name="keywords" content="hotel flight travelocity airline ticket vacation trip plane travel agency cheap airline booking saamco consultancy airplane"
+    />
+    <meta name="description" content="A website to know plan and book your next travel experience ranging from travel, accessories, tickets, attractions, tours and even meals"
+    />
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Istok+Web);
+        @keyframes slidy {
+            0% {
+                left: 0%;
+            }
+            16.66% {
+                left: -100%;
+            }
+            33.2% {
+                left: -200%;
+            }
+            49.8% {
+                left: -300%;
+            }
+            66.4% {
+                left: -400%;
+            }
+            83% {
+                left: -500%;
+            }
+            99.6% {
+                left: -600%;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body,
+        figure {
+            margin: 0;
+            background: #101010;
+            font-family: Istok Web, sans-serif;
+            font-weight: 100;
+        }
+
+        div#captioned-gallery {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        figure.slider {
+            position: relative;
+            width: 700%;
+            font-size: 0;
+            animation: 20s slidy infinite;
+        }
+
+        figure.slider figure {
+            width: 14.28%;
+            max-height: auto;
+            display: inline-block;
+            position: inherit;
+        }
+
+        figure.slider img {
+            width: 100%;
+            max-height: 500px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            figure.slider img {
+                max-height: 200px;
+            }
+        }
+
+        figure.slider figure figcaption {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            color: #fff;
+            width: 100%;
+            font-size: 2rem;
+            padding: .6rem;
+        }
+
+
+        /* Style the buttons that are used to open and close the accordion panel */
+
+        .outer-accordion,
+        .inner-accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18 0 18 0;
+            width: 100%;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+        .active,
+        .outer-accordion:hover,
+        .inner-accordion:hover {
+            background-color: #ccc;
+        }
+
+        /* Style the accordion panel. Note: hidden by default */
+
+        .panel {
+            padding: 0 18px;
+            background-color: white;
+            display: none;
+            overflow: hidden;
+        }
+
+        .outer-panel {
+            display: none;
+        }
+
+        .nolist {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body style="text-align: center">
+    <div style="background-color:blue; color: white;">
+        <div style="margin-top: 1px;font-size: 1.3em;">SAAMCO Travel Symphony LLP</div>
+        <i style="font-size: 1.2em;">Dream. Explore. Discover.</i>
+        <div style="background-color:white;color:black;">3A3 Park Road, Lucknow 226001
+            <br/>
+            <img src="https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/32x32/plain/user_telephone.png" /> : 0522-4045278, 4037516.
+            <br/>
+            <a href="https://goo.gl/maps/KqV6naLFrtK2"><img src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/32/Maps-icon.png"/></a>
+            &nbsp;
+            <a href="mailto:saamcotravel@gmail.com"><img src="http://icons.iconarchive.com/icons/cornmanthe3rd/plex/32/Communication-email-2-icon.png"/></a>
+            &nbsp;
+            <a href="https://www.facebook.com/saamcotravel"><img src="http://icons.iconarchive.com/icons/yootheme/social-bookmark/32/social-facebook-box-blue-icon.png"/></a>
+            &nbsp;
+            <a href="https://saamcotravelsymphony.wordpress.com"><img src="https://www.shareicon.net/download/32x32/2015/09/12/99754_wordpress_512x512.png"/></a>
+        </div>
+    </div>
+
+    <nav class="w3-bar w3-black">
+        <a href="http://www.saamcotravel.com/Home.html" class="w3-button w3-bar-item">Home</a>
+        <a href="https://saamcotravelsymphony.wordpress.com" class="w3-button w3-bar-item">Our Story</a>
+        <a href="http://www.saamcotravel.com/AboutUs.html" class="w3-button w3-bar-item">About Us</a>
+    </nav>
+    <base href="https://anubhavstorage5584.blob.core.windows.net/saamcotravel/">
+    <div id="captioned-gallery">
+        <figure class="slider">
+            <figure>
+                <img src="12 Apostles.jpg" alt>
+                <figcaption>12 Apostles, Victoria, Australia</figcaption>
+            </figure>
+            <figure>
+                <img src="Fredjama Castle.jpg" alt>
+                <figcaption>Predjama Castle, Slovenia</figcaption>
+            </figure>
+            <figure>
+                <img src="Lake Louise.jpg" alt>
+                <figcaption>Lake Louise, Banff, Canada</figcaption>
+            </figure>
+            <figure>
+                <img src="Las Vegas.jpg" alt>
+                <figcaption>Las Vegas, United States</figcaption>
+            </figure>
+            <figure>
+                <img src="munnar.jpg" alt>
+                <figcaption>Munnar, India</figcaption>
+            </figure>
+            <figure>
+                <img src="Queenstown.jpg" alt>
+                <figcaption>Queenstown, New Zealand</figcaption>
+            </figure>
+            <figure>
+                <img src="12 Apostles.jpg" alt>
+                <figcaption>12 Apostles, Victoria, Australia</figcaption>
+            </figure>
+        </figure>
+    </div>
+    </base>
+    <div>
+        <ul class="nolist">
+            <li>
+                <h2 class="outer-accordion">Accomodation</h2>
+                <ul class="outer-panel nolist">
+                    <li>
+                        <h3 class="inner-accordion">Expedia</h3>
+                        <div class="panel" id="expedia">
+                                <div id="searchWidget"><iframe id="widgetIframe" src="https://www.expedia.com/marketing/widgets/widget?wtt=4&tp1=&tp2=WI07665&lob=H,FH,F,CA,A&des=&sfs=4&wbi=10&olc=000000&whf=1&hfc=C7C7C7&wif=2&ifc=000000&wbc=FFCB00&wbf=1&bfc=3D3100&wws=1" width="300px" height="250px" scrolling="no" frameborder="0"></iframe></div>                                
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="inner-accordion">Booking</h3>
+                        <div class="panel" id="booking">
+                                <ins class="bookingaff" data-aid="1501198" data-target_aid="1456767" data-prod="nsb" data-width="100%" data-height="auto" data-lang="en-US">
+                                        <!-- Anything inside will go away once widget is loaded. -->
+                                        <a href="//www.booking.com?aid=1456767">Booking.com</a>
+                                    </ins>
+                                    <script type="text/javascript">
+                                        (function(d, sc, u) {
+                                          var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+                                          s.type = 'text/javascript';
+                                          s.async = true;
+                                          s.src = u + '?v=' + (+new Date());
+                                          p.parentNode.insertBefore(s,p);
+                                          })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');
+                                    </script>
+                        </div>
+                    </li>
+                    <!--<li>
+                        <h3 class="inner-accordion">Airbnb</h3>
+                        <div class="panel" id="airbnb">
+                            Coming Soon..
+                        </div>
+                    </li>-->
+                </ul>
+            </li>
+            <!--<li>
+                <h2 class="outer-accordion">Global Trains</h2>
+                <ul class="outer-panel nolist">
+                    <li>
+                        <h3 class="inner-accordion">ACP Rail</h3>
+                        <div class="panel" id="acprail">
+                            Coming Soon..
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="outer-accordion">Airlines</h2>
+                <ul class="outer-panel nolist">
+                    <li>
+                        <h3 class="inner-accordion">Air France</h3>
+                        <div class="panel" id="airfrance">
+                            Coming Soon..
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="inner-accordion">Ethiad</h3>
+                        <div class="panel" id="ethiad">
+                            Coming Soon..
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="inner-accordion">Singapore airlines</h3>
+                        <div class="panel" id="singaporeAirlines">
+                            Coming Soon..
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="inner-accordion">Qatar airways</h3>
+                        <div class="panel" id="qatarAirways">
+                            Coming Soon..
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="inner-accordion">Emirates</h3>
+                        <div class="panel" id="Emirates">
+                            Coming Soon..
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="inner-accordion">Qantas</h3>
+                        <div class="panel" id="Qantas">
+                            Coming Soon..
+                        </div>
+                    </li>
+                </ul>
+            </li>-->
+            <!--<li>
+                <h2 class="outer-accordion">Online travel shopping</h2>
+                <ul class="outer-panel nolist">
+                    <li>
+                        <h3 class="inner-accordion">Amazon</h3>
+                        <div class="panel" id="Amazon">
+                            Coming Soon..
+                        </div>
+                    </li>
+                    <li>
+                        <h3 class="inner-accordion">Flipkart</h3>
+                        <div class="panel" id="Flipkart">
+                            Coming Soon..
+                        </div>
+                    </li>
+                </ul>
+            </li>-->
+            <li>
+                <h2 class="outer-accordion">Travel Insurance</h2>
+            </li>
+        </ul>
+    </div>
+    <script>
+        var outerAcc = document.getElementsByClassName("outer-accordion");
+
+        for (var i = 0; i < outerAcc.length; i++) {
+            outerAcc[i].addEventListener("click", function () {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+
+        var innerAcc = document.getElementsByClassName("inner-accordion");
+        for (var i = 0; i < innerAcc.length; i++) {
+            innerAcc[i].addEventListener("click", function () {
+                /* Toggle between adding and removing the "active" class,
+                to highlight the button that controls the panel */
+                this.classList.toggle("active");
+
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
