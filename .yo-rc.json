@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "hdr-candidate",
+    "libraryId": "2106234a-eea9-417f-9c1a-7ace5a9c36be",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "hdr-candidate",
+    "solutionShortDescription": "hdr-candidate description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

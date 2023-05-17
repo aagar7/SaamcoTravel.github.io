@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ACU-Custom-HDR-Milestone-Reviews",
+    "id": "2106234a-eea9-417f-9c1a-7ace5a9c36be",
+    "version": "1.0.0.8",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "File upload control for HDR Milestone Reviews"
+      },
+      "longDescription": {
+        "default": "Since the student does not have access to powerapps, this webpart has been custom developed to allow the candidate to upload the documents"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hdr-candidate Feature",
+        "description": "The feature that activates elements of the hdr-candidate solution.",
+        "id": "47989631-b8b1-4269-a8b1-3a61964efe6a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hdr-candidate.sppkg"
+  }
+}
