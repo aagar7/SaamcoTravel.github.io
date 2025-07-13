@@ -12,7 +12,7 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "1.17.1",
+    "@microsoft/sp-core-library": "1.21.1",
     "@microsoft/sp-lodash-subset": "1.17.1",
     "@microsoft/sp-office-ui-fabric-core": "1.17.1",
     "@microsoft/sp-property-pane": "1.17.1",
