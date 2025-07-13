@@ -20,7 +20,7 @@
     "office-ui-fabric-react": "^7.199.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "tslib": "2.3.1"
+    "tslib": "2.8.1"
   },
   "devDependencies": {
     "@microsoft/eslint-config-spfx": "1.17.1",
